@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.pop{
+     margin-top: 90px;
+  margin-left: 40px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  height: 350px;
+  margin-left: 500px;
+
+
+}
+.pop {
+  transition: 0.3s ease;
+}
+.pop:hover {
+  transform: translateY(-10px);
+}
+.pop i{
+    font-size: 30px;
+    color: blue;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.pop h1{
+margin-left: 25px;
+margin-top: 70px;
+}
+.pop p{
+margin-left: 17px;
+margin-top: 20px;
+
+}
+.pop button{
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.pop button:hover{
+    background-color: black;
+}
+.pop button a{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width:768px)
+   {
+     .pop{
+     margin-top: 120px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  height: 350px;
+  margin-left: 50px;}
+
+
+
+.pop {
+  transition: 0.3s ease;
+}
+.pop:hover {
+  transform: translateY(-10px);
+}
+
+   }
