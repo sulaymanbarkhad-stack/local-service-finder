@@ -16,7 +16,7 @@
   gap: 20px;
   margin-top: 40px;
   cursor: pointer;
-  margin-left: 450px;
+  margin-left: 430px;
 }
 .header ul :hover {
   color: blue;
@@ -467,14 +467,18 @@ a {
   .yu {
     margin-left: 30px;
     width: 320px;
+
   }
-  .yu h5 {
-    font-size: 10px;
+  .yu input {
+    margin-left: 10px;
+    /* font-size: 10px;
     margin-top: 15px;
-    margin-left: 5px;
+    margin-left: 5px; */
   }
   .yu button {
-    margin-left: 0px;
+    margin-left: 60px;
+    width: 390px;
+    height: 30px;
   }
   .haay {
     flex-direction: column;
@@ -510,16 +514,21 @@ a {
   .lok1 {
     margin-left: 30px;
     width: 260px;
+    flex-direction: column;
+    
+    
   }
   .ool i {
     font-size: 15px;
-    margin-left: 30px;
+    margin-left: 100px;
   }
   .ool1 h1 {
     font-size: 15px;
+    margin-left: 50px;
   }
   .ool1 p {
     font-size: 15px;
+    margin-left: 50px;
   }
   .blue {
     height: auto;
@@ -534,7 +543,7 @@ a {
   .los button {
     width: 220px;
     height: 30px;
-    margin-left: 60px;
+    margin-left: 70px;
   }
   .los h5 {
     width: 220px;

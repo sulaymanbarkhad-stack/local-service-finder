@@ -92,6 +92,10 @@ color: blue;
 .Contact-form{
     margin-left: 300px;
     margin-top: -50px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      background-color: white;
+      width: 450px;
+      border-radius: 10px;
     
 }
 .Contact-form input{
@@ -100,6 +104,8 @@ color: blue;
     border-radius: 5px;
     margin-top: 20px;
     border: 1px solid #ccc;
+    margin-left:20px;
+    padding-left: 5px;
    
 }
 .Contact-form textarea{
@@ -108,6 +114,8 @@ color: blue;
     border-radius: 5px;
     margin-top: 20px;
      border: 1px solid #ccc;
+     margin-left: 20px;
+     padding-left: 5px;
 
 }
 .Contact-form button{
@@ -119,6 +127,7 @@ color: blue;
     color: white;
     border: none;
     cursor: pointer;
+    margin-left: 20px;
 }
 .Contact-form button a{
     color: white;
@@ -186,19 +195,21 @@ color: blue;
         height: auto;
     }
     .uuno h2{
-        margin-left: 80px;
+        margin-left: 100px;
     }
     .left{
         flex-direction: column;
+        margin-left: 0px;
 
     }
     .Contact-info{
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .Contact-form{
-        height: auto;
-        margin-left: 45px;
+        height: 280px;
+        margin-left: 65px;
         margin-top: 40px;
+        width: 350px;
     }
   
     .Contact-form input{
@@ -221,7 +232,7 @@ color: blue;
           width:300px ;
     height: 20px;
     border-radius: 10px;
-    margin-top: 20PX;
+    margin-top: 10PX;
     background-color: blue;
     color: white;
     border: none;
